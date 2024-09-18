@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+wrapper {
+    width: 100%;
+    align-content: center;
+    background-color: black;
+    padding: 10 px;
+}
+
+h1 { 
+    background-color:gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150 px;
+    font-weight: 8;
+    justify-content: center;
+    color: white;
+    flex-grow: 1;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 100;
+}
+
+.keycodestyle {
+    font-size: 70 px ;
+}
+
+.promptiestyle {
+    font-size: 50 px;
+}
